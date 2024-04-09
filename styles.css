@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensure the content is centered vertically */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .stopwatch {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Increase border-radius for rounded corners */
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  #display {
+    font-size: 2em;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 20px; /* Make buttons more rounded */
+    border: none;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
+  #laps-container {
+    margin-top: 20px; /* Add margin to create space between stopwatch and lap notes */
+    display: flex;
+    justify-content: center;
+  }
+  
+  #laps {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px; /* Add rounded corners to the lap notes box */
+    text-align: left;
+    width: calc(100% - 44px); /* Adjusted width to match stopwatch width */
+  }
+  
+  #laps li {
+    margin-bottom: 5px;
+  }
+  
